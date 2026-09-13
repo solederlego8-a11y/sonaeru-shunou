@@ -25,6 +25,10 @@ assets/style.css      共通CSS
 
 ## 楽天アフィリエイトリンクについて
 
-記事内の商品リンクは、実際の楽天アフィリエイトIDが判明するまで仮リンク
-（`<a class="cta" href="#" data-ad="<service-id>"><span class="tag">仮リンク</span>...`）で運用する。
-実リンクが判明したら `href` を差し替え、`<span class="tag">仮リンク</span>` を削除する。
+楽天アフィリエイト（https://affiliate.rakuten.co.jp/ 、会員: 北田尚弘）に参加済み。
+商品リンクは同サイトの商品検索→「短縮URL」タイプ（`https://a.r10.to/xxxxxx`形式、有効期限10年）で発行し、
+`<a class="cta" href="https://a.r10.to/xxxxxx" target="_blank" rel="nofollow noopener">` の形で記事に設置する。
+
+未発行の間だけ、仮リンク（`href="#" data-ad="<service-id>"><span class="tag">仮リンク</span>...`）を暫定的に使う。
+
+- 2026-09-13: `bousai-syunou-box-hikaku.html` の3リンク（頑丈収納ボックス/ベッド下収納ボックス/屋外収納ボックス）を実リンク化済み
