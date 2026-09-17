@@ -112,3 +112,8 @@ table.cmp tbody tr:last-child td{border-bottom:none;}
 @media (max-width:600px){
   article.prose{padding:22px 16px;}
 }
+
+/* tldr box */
+.tldr{background:#fff7f0;border-left:4px solid #ea580c;padding:14px 18px;margin:0 0 22px}
+.tldr p{margin:0 0 6px}
+.tldr ul{margin:0;padding-left:1.2em}
