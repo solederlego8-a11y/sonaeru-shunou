@@ -117,3 +117,8 @@ table.cmp tbody tr:last-child td{border-bottom:none;}
 .tldr{background:#fff7f0;border-left:4px solid #ea580c;padding:14px 18px;margin:0 0 22px}
 .tldr p{margin:0 0 6px}
 .tldr ul{margin:0;padding-left:1.2em}
+/* generic table inside article */
+article.prose table:not(.cmp){width:100%;border-collapse:collapse;font-size:13.5px;margin:18px 0;display:block;overflow-x:auto;}
+article.prose table:not(.cmp) th,article.prose table:not(.cmp) td{padding:9px 12px;border:1px solid var(--border);text-align:left;vertical-align:top;}
+article.prose table:not(.cmp) thead th{background:var(--ink);color:var(--paper);font-size:12px;font-weight:500;}
+article.prose h3{font-size:16.5px;margin:26px 0 8px;}
