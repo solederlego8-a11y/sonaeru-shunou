@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MHSG2QN7ED"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-MHSG2QN7ED', { anonymize_ip: true });
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>家族の防災備蓄量・ポータブル電源容量の計算ツール（無料） | そなえる収納</title>
+<meta name="description" content="家族の人数と日数から水・食事・簡易トイレの備蓄量の目安を、家電の消費電力と使う時間からポータブル電源に必要な容量（Wh）の目安を計算する無料ツール。入力した内容は送信も保存もされません。">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://solederlego8-a11y.github.io/sonaeru-shunou/bichiku-keisan.html">
+<meta property="og:title" content="家族の防災備蓄量・ポータブル電源容量の計算ツール（無料）">
+<meta property="og:description" content="人数と日数から水・食事・簡易トイレの量を、家電の消費電力と時間から必要な電源容量（Wh）を計算。入力は送信・保存されません。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://solederlego8-a11y.github.io/sonaeru-shunou/bichiku-keisan.html">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+.calc{border:1px solid var(--border);padding:16px 18px;margin:18px 0;background:#fff;}
+.calc h2{margin-top:0;}
+.calc label{display:inline-block;font-size:13.5px;margin:4px 12px 4px 0;}
+.calc input[type=number],.calc select{font-size:15px;padding:6px 8px;border:1px solid var(--border);width:90px;background:#fff;}
+.calc select{width:auto;}
+.calc table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:560px;}
+.calc th,.calc td{padding:8px 8px;border-bottom:1px solid var(--border);text-align:left;vertical-align:middle;}
+.calc td input[type=number]{width:80px;}
+.calc .res{background:#fff7f0;border-left:4px solid #ea580c;padding:12px 16px;margin:14px 0;font-size:14.5px;}
+.calc .res strong{font-size:1.15em;}
+.hide{display:none;}
+</style>
+<!-- faq-schema -->
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "入力した人数や家電の情報は、どこかに送信されますか？", "acceptedAnswer": {"@type": "Answer", "text": "送信も保存もしません。計算はお使いのブラウザの中だけで行い、ページを閉じると入力は消えます。ページの閲覧状況の計測（アクセス解析）は行っていますが、入力値は含まれません。"}}, {"@type": "Question", "name": "水の備蓄は3日分で足りますか？", "acceptedAnswer": {"@type": "Answer", "text": "内閣府は最低3日分、できれば1週間分の備蓄を案内しています。ライフラインの復旧には地域や災害の規模で差があるため、このツールでは3日・7日・14日分を選べます。"}}, {"@type": "Question", "name": "表示された電源容量があれば、必ず停電中に使えますか？", "acceptedAnswer": {"@type": "Answer", "text": "保証はできません。電源の定格出力が足りない、気温が低いなどで使える量が減る場合があります。表示は目安として、余裕のある容量を選んでください。"}}, {"@type": "Question", "name": "冷蔵庫は年間消費電力量がわからないと計算できませんか？", "acceptedAnswer": {"@type": "Answer", "text": "本体のラベル、取扱説明書、メーカーのサイトの製品情報で確認できます。わからない場合は、チェックを外して他の家電だけ計算し、冷蔵庫は別に考えてください。"}}]}
+</script>
+<!-- ga4-cv -->
+<script>
+if(typeof gtag==='function'){document.addEventListener('click',function(e){var a=e.target&&e.target.closest&&e.target.closest('a[href]');if(!a||a.hasAttribute('data-cv-tracked'))return;var h=a.href||'';var has=function(s){return h.indexOf(s)>-1;};var asp=has('a8.net')?'a8':(has('rakuten.co.jp')||has('r10.to'))?'rakuten':(has('amazon.co.jp')||has('amzn.'))?'amazon':'';if(asp){gtag('event','affiliate_click',{asp:asp,link_url:h,link_text:(a.innerText||'').trim().slice(0,80),page_path:location.pathname});}else if(has('buy.stripe.com')){gtag('event','begin_checkout',{link_url:h,page_path:location.pathname});}},true);document.addEventListener('submit',function(e){var f=e.target;gtag('event','generate_lead',{form_id:f.id||f.getAttribute('data-subject')||f.action||'',page_path:location.pathname});},true);}
+</script>
+</head>
+<body>
+<header class="site-header">
+  <div class="bar">
+    <a class="brand" href="index.html"><span class="mark">備</span>そなえる収納</a>
+    <nav class="mainnav">
+      <a href="blog.html">ブログ</a>
+      <a href="guide.html">完全ガイド</a>
+      <a href="about.html">サイトについて</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <div class="hero">
+      <p class="eyebrow">無料ツール</p>
+      <h1>家族の防災備蓄量・<br>ポータブル電源容量の計算ツール</h1>
+      <p class="byline">公開日 2026-10-09 ・ 更新日 2026-10-09</p>
+    </div>
+
+    <div class="disclosure">
+      <span class="dot">i</span>
+      <span>本ページはプロモーション(広告)を含みます。紹介する商品・サービスの契約が成立した場合、当サイトが提携先企業から成果報酬を受け取ることがあります。計算結果はあくまで目安で、災害時の安全を保証するものではありません。</span>
+    </div>
+
+    <article class="prose">
+      <div class="tldr">
+        <p><strong>このツールでできること</strong></p>
+        <ul>
+          <li>人数と日数を入れると、<strong>飲料水・食事の回数・簡易トイレの回数</strong>の目安が出ます（水は内閣府の「1人1日3リットル」、トイレは1人1日5回の想定をもとにしています）</li>
+          <li>使いたい家電の消費電力と時間を入れると、<strong>ポータブル電源に必要な容量（Wh）の目安</strong>が出ます（計算式は「消費電力量 ÷ 0.8」）</li>
+          <li>入力した内容は、<strong>外部に送信も保存もしません</strong>。ブラウザの中だけで計算します</li>
+        </ul>
+      </div>
+
+      <div class="calc">
+        <h2>1. 水・食事・簡易トイレの量</h2>
+        <label>人数 <input type="number" id="people" min="1" max="20" value="3"> 人</label>
+        <label>日数
+          <select id="daysSel">
+            <option value="3">3日分（最低ライン）</option>
+            <option value="7" selected>7日分（できれば）</option>
+            <option value="14">14日分</option>
+          </select>
+        </label>
+        <div class="res" id="res1" aria-live="polite"></div>
+        <p style="font-size:13px">※乳幼児のミルク・離乳食、高齢者の食事、持病の薬、アレルギー対応食、ペットの分は含まれません。別に必要量を確認してください。</p>
+      </div>
+
+      <div class="calc">
+        <h2>2. ポータブル電源に必要な容量</h2>
+        <p style="font-size:13.5px">使う家電にチェックを入れ、消費電力（W）と1日に使う時間（h）を入れます。<strong>初期値は一般的な目安で、機種によって大きく違います。</strong>お使いの機器の本体ラベル・取扱説明書の数字に書き換えてください。</p>
+        <div class="tablewrap"><table>
+          <thead><tr><th>使う</th><th>家電</th><th>消費電力 W</th><th>時間 h/日</th><th>1日の電力量 Wh</th></tr></thead>
+          <tbody id="rows"></tbody>
+        </table></div>
+        <label>停電の日数 <input type="number" id="pdays" min="1" max="14" value="2"> 日</label>
+        <label>変換ロス係数 <input type="number" id="eff" min="0.5" max="1" step="0.05" value="0.8"></label>
+        <div class="res" id="res2" aria-live="polite"></div>
+        <p style="font-size:13px">冷蔵庫は、年間消費電力量（kWh/年。本体ラベルやカタログに表記）から1日の平均の電力量を出しています。モーターを使う家電は動き出すときに大きな電力が必要になることがあるため、電源の定格出力にも余裕を持たせてください。</p>
+      </div>
+
+      <div id="after">
+        <h2>結果のあとに読む記事・確認すること</h2>
+        <ul>
+          <li><a href="articles/portable-dengen-hitorigurashi-yoryo.html">一人暮らしの停電対策、ポータブル電源は何Whあれば足りる？</a>（容量の考え方と保管）</li>
+          <li><a href="articles/portable-dengen-3brand-hikaku-hitorigurashi.html">Jackery・BLUETTI・Dabbsson、一人暮らしの防災用ポータブル電源はどれ？</a>（メーカー比較）</li>
+          <li><a href="articles/mizu-bichiku-okibasho-hitorigurashi.html">水の備蓄、どこに置く？</a>／<a href="articles/kani-toilet-syunou-basho-mansion.html">簡易トイレの置き場所</a>／<a href="articles/hijoshoku-stocker-hikaku.html">非常食ストッカー比較</a></li>
+        </ul>
+        <div id="fridgeBox" class="hide">
+          <p>冷蔵庫の中身を守りたい場合は、電源の選び方を整理した「<a href="articles/teiden-reizoko-mamoru-portable-denngen-chikudenchi.html">停電で冷蔵庫の中身を守る電源はどれ？</a>」も参考にしてください。</p>
+          <div class="ctarow">
+            <a class="cta" href="https://px.a8.net/svt/ejp?a8mat=4BE70R+1Y9A0Q+5SUM+69P02" rel="nofollow sponsored noopener" target="_blank">EENOUR公式のポータブル冷蔵庫・ポータブル電源を見る【PR】 →</a>
+          </div>
+          <img border="0" width="1" height="1" src="https://www13.a8.net/0.gif?a8mat=4BE70R+1Y9A0Q+5SUM+69P02" alt="">
+          <div class="ctarow">
+            <a class="cta" href="https://px.a8.net/svt/ejp?a8mat=4BC8NA+9VFWSA+2AG2+15S78I" rel="nofollow sponsored noopener" target="_blank">タイナビ蓄電池で蓄電池の無料一括見積りを比べる【PR】 →</a>
+          </div>
+          <img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=4BC8NA+9VFWSA+2AG2+15S78I" alt="">
+        </div>
+        <p>停電時の明かりは、電源とは別にライトを置いておくと安心です（選び方は<a href="articles/teiden-reizoko-mamoru-portable-denngen-chikudenchi.html">こちらの記事</a>）。</p>
+        <div class="ctarow">
+          <a class="cta" href="https://px.a8.net/svt/ejp?a8mat=4BE70R+1YUPMI+5XAW+5YRHE" rel="nofollow sponsored noopener" target="_blank">WUBEN公式のLEDライトを見る【PR】 →</a>
+        </div>
+        <img border="0" width="1" height="1" src="https://www12.a8.net/0.gif?a8mat=4BE70R+1YUPMI+5XAW+5YRHE" alt="">
+      </div>
+
+      <h2>計算の前提と出典</h2>
+      <div class="tablewrap">
+        <table class="cmp">
+          <thead><tr><th>項目</th><th>前提</th><th>出典・注意</th></tr></thead>
+          <tbody>
+            <tr><td>飲料水</td><td>1人1日3リットル × 人数 × 日数。2Lペットボトル換算の本数も表示</td><td><a href="https://www.bousai.go.jp/kyoiku/keigen/gensai/sonae.html" target="_blank" rel="noopener">内閣府「災害に対するご家庭での備え」</a>。最低3日分、できれば1週間分の備蓄が案内されています。調理用の水は含まれていません</td></tr>
+            <tr><td>食事</td><td>1日3食 × 人数 × 日数（食数のみ。量・栄養は計算しません）</td><td>編集部の単純計算。品目の選び方は農林水産省「<a href="https://www.maff.go.jp/j/zyukyu/foodstock/guidebook.html" target="_blank" rel="noopener">災害時に備えた食品ストックガイド</a>」を参照してください</td></tr>
+            <tr><td>簡易トイレ</td><td>1人1日5回 × 人数 × 日数</td><td><a href="https://www.bousai.go.jp/taisaku/hinanjo/h28_hinanjo_guideline.html" target="_blank" rel="noopener">内閣府「避難所におけるトイレの確保・管理ガイドライン」</a>で想定されている1人1日5回程度をもとにした目安</td></tr>
+            <tr><td>電源容量</td><td>必要容量(Wh) = Σ(消費電力W × 時間h) × 日数 ÷ 変換ロス係数(初期値0.8)</td><td>電力ロスを見込んで表示容量の80%程度で見積もる方法は、<a href="https://www.ankerjapan.com/blogs/magazine/capacity-power" target="_blank" rel="noopener">Anker Japanの解説</a>でも紹介されています。実際の使える量は機種・温度・使い方で変わります</td></tr>
+            <tr><td>冷蔵庫</td><td>1日の電力量(Wh) = 年間消費電力量(kWh/年) ÷ 365 × 1,000</td><td>カタログ値は一定条件での測定値。室温・扉の開閉・庫内の量で変わります</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>このツールの結果は<strong>目安</strong>です。家族構成、健康状態、住まい、地域の被害想定によって必要な量は変わります。結果を保証するものではありません。ポータブル電源・発電機の安全上の注意（発電機は屋内で絶対に使用しない、リコール情報の確認など）は<a href="https://www.caa.go.jp/policies/policy/consumer_safety/caution/caution_053/" target="_blank" rel="noopener">消費者庁の注意喚起</a>を確認してください。</p>
+
+      <h2>よくある疑問</h2>
+      <dl class="faq">
+        <dt>入力した人数や家電の情報は、どこかに送信されますか？</dt>
+        <dd>送信も保存もしません。計算はお使いのブラウザの中だけで行い、ページを閉じると入力は消えます。ページの閲覧状況の計測（アクセス解析）は行っていますが、入力値は含まれません。</dd>
+        <dt>水の備蓄は3日分で足りますか？</dt>
+        <dd>内閣府は最低3日分、できれば1週間分の備蓄を案内しています。ライフラインの復旧には地域や災害の規模で差があるため、このツールでは3日・7日・14日分を選べます。</dd>
+        <dt>表示された電源容量があれば、必ず停電中に使えますか？</dt>
+        <dd>保証はできません。電源の定格出力が足りない、気温が低いなどで使える量が減る場合があります。表示は目安として、余裕のある容量を選んでください。</dd>
+        <dt>冷蔵庫は年間消費電力量がわからないと計算できませんか？</dt>
+        <dd>本体のラベル、取扱説明書、メーカーのサイトの製品情報で確認できます。わからない場合は、チェックを外して他の家電だけ計算し、冷蔵庫は別に考えてください。</dd>
+      </dl>
+    </article>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    &copy; 2026 そなえる収納 ・ <a href="about.html">サイトについて・広告表示ポリシー</a> ・ <a href="https://solederlego8-a11y.github.io/">運営メディア一覧</a>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var $=function(id){return document.getElementById(id);};
+  function n(v,d){v=parseFloat(v);return isFinite(v)&&v>=0?v:d;}
+  function fmt(x){return Math.round(x).toLocaleString('ja-JP');}
+
+  function calc1(){
+    var p=Math.max(1,Math.floor(n($('people').value,1))), d=parseInt($('daysSel').value,10);
+    var water=3*p*d, meals=3*p*d, toilet=5*p*d;
+    $('res1').innerHTML='飲料水 <strong>'+fmt(water)+' L</strong>（2Lペットボトル約 '+Math.ceil(water/2)+' 本）／ 食事 <strong>'+fmt(meals)+' 食</strong> ／ 簡易トイレ <strong>'+fmt(toilet)+' 回分</strong><br><span style="font-size:13px">'+p+'人 × '+d+'日分の目安です。</span>';
+  }
+
+  // name, W, h, type
+  var items=[
+    ['スマホの充電（1台）',10,3,'w'],
+    ['LEDランタン・ライト',5,5,'w'],
+    ['Wi-Fiルーター',10,24,'w'],
+    ['ノートPC',50,4,'w'],
+    ['電気毛布',50,8,'w'],
+    ['小型扇風機',30,8,'w'],
+    ['冷蔵庫（年間消費電力量から計算）',300,24,'fridge'],
+    ['その他の機器（自分で入力）',0,0,'w']
+  ];
+  var tb=$('rows');
+  items.forEach(function(it,i){
+    var tr=document.createElement('tr');
+    var isF=it[3]==='fridge';
+    tr.innerHTML='<td><input type="checkbox" id="c'+i+'"'+(i<3?' checked':'')+'></td><td>'+it[0]+'</td>'+
+      '<td><input type="number" id="w'+i+'" min="0" step="1" value="'+it[1]+'"'+'> '+(isF?'kWh/年':'W')+'</td>'+
+      '<td>'+(isF?'24（常時）':'<input type="number" id="h'+i+'" min="0" max="24" step="0.5" value="'+it[2]+'">')+'</td>'+
+      '<td id="e'+i+'">0</td>';
+    tb.appendChild(tr);
+  });
+
+  function calc2(){
+    var days=Math.max(1,n($('pdays').value,1)), eff=n($('eff').value,0.8);
+    if(eff<0.5)eff=0.5; if(eff>1)eff=1;
+    var sumWh=0, sumW=0, fridgeOn=false;
+    items.forEach(function(it,i){
+      var on=$('c'+i).checked, v=n($('w'+i).value,0), wh=0, w=0;
+      if(it[3]==='fridge'){ wh=v/365*1000; w=v/365*1000/24; if(on)fridgeOn=true; }
+      else { var h=n($('h'+i).value,0); wh=v*h; w=v; }
+      $('e'+i).textContent=fmt(wh);
+      if(on){ sumWh+=wh; sumW+=w; }
+    });
+    var need=sumWh*days/eff;
+    var msg='1日の電力量の合計 <strong>'+fmt(sumWh)+' Wh</strong> → '+days+'日分で <strong>約 '+fmt(need)+' Wh</strong> の容量が目安です。';
+    msg+='<br><span style="font-size:13px">同時に使う機器の消費電力の合計は約 '+fmt(sumW)+' W（冷蔵庫は平均値）。電源の定格出力は、これに起動時の余裕を加えた値を目安に確認してください。</span>';
+    if(need<=0) msg='家電にチェックを入れ、消費電力と時間を入力してください。';
+    $('res2').innerHTML=msg;
+    $('fridgeBox').className=fridgeOn?'':'hide';
+  }
+
+  ['people','daysSel'].forEach(function(id){$(id).addEventListener('input',calc1);$(id).addEventListener('change',calc1);});
+  document.querySelectorAll('.calc input').forEach(function(el){ if(el.id!=='people') el.addEventListener('input',calc2); el.addEventListener('change',calc2); });
+  calc1(); calc2();
+})();
+</script>
+</body>
+</html>
