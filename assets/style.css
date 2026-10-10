@@ -75,7 +75,7 @@ article.prose > h3{font-size:16.5px;color:var(--blue);margin-top:1.6em;}
 article.prose p{max-width:70ch;}
 article.prose ul,article.prose ol{padding-left:22px;max-width:68ch;}
 article.prose li{margin:6px 0;}
-.byline{display:flex;gap:14px;align-items:center;font-size:12.5px;color:var(--ink-faint);margin:10px 0 0;font-family:"Roboto Mono",monospace;}
+.byline{display:flex;flex-wrap:wrap;gap:14px;align-items:center;font-size:12.5px;color:var(--ink-faint);margin:10px 0 0;font-family:"Roboto Mono",monospace;}
 
 /* comparison table */
 .tablewrap{overflow-x:auto;border:1px solid var(--border);margin:18px 0;}
