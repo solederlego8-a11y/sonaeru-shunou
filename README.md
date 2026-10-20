@@ -37,7 +37,7 @@ assets/style.css      共通CSS
 <!-- article-index:start -->
 ## そなえる収納 公開中のページ一覧
 
-賃貸・一人暮らしの防災グッズの置き場所と収納、備蓄量の目安を整理するメディアです。
+賃貸・一人暮らし向けの防災収納メディア
 
 サイト: https://solederlego8-a11y.github.io/sonaeru-shunou/
 
@@ -75,5 +75,16 @@ assets/style.css      共通CSS
 - [防災セットは買う？自分で揃える？一人暮らしの判断基準と置き場所](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/bousai-set-kau-jibun-soroeru-hitorigurashi.html)
 - [冷凍庫レンタルは一人暮らしの防災に使える？停電時の詰め方と置き場所](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/reitouko-rental-hitorigurashi-bousai.html)
 - [停電で冷蔵庫の中身を守る電源は？3方式を賃貸と持ち家で比較](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/teiden-reizoko-mamoru-portable-denngen-chikudenchi.html)
+- [ダウンの宅配クリーニングは衣替え前に出す？保管付きの判断基準](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/down-takuhai-cleaning-koromogae-hokan-erabi.html)
+- [クローゼットを空ける宅配買取は損？送料・返送料・査定の確認項目](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/closet-seiri-takuhai-kaitori-kakunin.html)
+- [台風前後の屋根点検は誰に頼む？火災保険と見積りの確認項目](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/taifu-yane-tenken-gyosha-hoken-kakunin.html)
+- [水漏れ・断水のとき水道業者は広告で選ぶ？高額請求を避ける確認項目](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/suidou-mizumore-gyosha-kokoku-kakunin.html)
+- [停電・台風・断水・収納の業者選び｜状況別の判断フローと比較表](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/bousai-gyosha-erabi-hub-joukyou-betsu.html)
+- [地震保険の加入率は？付帯率70.8%と賃貸の家財に入らない人の判断](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-kanyuritsu-chintai-kazai-hairanai.html)
+- [地震保険の家財は何割壊れたら全損？認定基準80%・60%・30%・10%と計算例](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-kazai-songai-nintei-80-60-30-10.html)
+- [賃貸の家財の地震保険料はいくら？年4,125円の目安と保険金額の決め方](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-kazai-hokenryo-chintai-hitorigurashi.html)
+- [地震保険は賃貸の家財にも付ける？火災保険との違いと、地震後の水漏れ・断水で業者を呼ぶ前にやること](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-kazai-mizumore-gyosha-yuka.html)
+- [地震保険の家財で対象外なのは？30万円超の貴金属・通貨・自動車](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-kazai-taisho-gai-kikinzoku-30man-chintai.html)
+- [賃貸の地震保険は火災保険の契約途中から入れる？手順と注意点](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-chintai-tochu-kanyu-itsukara.html)
 
 <!-- article-index:end -->
