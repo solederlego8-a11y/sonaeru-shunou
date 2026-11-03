@@ -37,7 +37,7 @@ assets/style.css      共通CSS
 <!-- article-index:start -->
 ## そなえる収納 公開中のページ一覧
 
-賃貸・一人暮らし向けの防災収納メディア
+賃貸・一人暮らし向けの防災収納メディア。防災グッズの中身ではなく「どこに・どう収納するか」に特化。
 
 サイト: https://solederlego8-a11y.github.io/sonaeru-shunou/
 
@@ -86,5 +86,13 @@ assets/style.css      共通CSS
 - [地震保険は賃貸の家財にも付ける？火災保険との違いと、地震後の水漏れ・断水で業者を呼ぶ前にやること](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-kazai-mizumore-gyosha-yuka.html)
 - [地震保険の家財で対象外なのは？30万円超の貴金属・通貨・自動車](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-kazai-taisho-gai-kikinzoku-30man-chintai.html)
 - [賃貸の地震保険は火災保険の契約途中から入れる？手順と注意点](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-chintai-tochu-kanyu-itsukara.html)
+- [地震保険料控除は賃貸の家財でも使える？所得税5万円・住民税2.5万円の計算例](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-koujo-chintai-kazai-nenmatsu-chosei.html)
+- [地震保険の家財の請求手順は？被害写真と10日ルールの注意点](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-kazai-seikyu-tejun-shashin-10nichi.html)
+- [賃貸の地震保険は5年長期と1年更新どっち？係数で見る差額](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-chintai-chouki-5nen-1nen-docchi.html)
+- [賃貸の地震保険に割引はある？建築年10%など4種類と確認書類](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-chintai-waribiki-kenchikunen-kazai.html)
+- [地震で火事になったら賃貸の火災保険は出る？地震火災費用の確認点](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-chintai-jishin-kasai-kasai-hoken-taisho-gai.html)
+- [地震保険の家財の保険金額は？30〜50%・上限1,000万円と受取額の早見表](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-kazai-hokenkingaku-30-50-ukitorigaku.html)
+- [地震保険は賃貸の引越しで解約できる？返戻金の仕組みと手続きの順番](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-chintai-hikkoshi-taikyo-kaiyaku-henreikin.html)
+- [地震保険は津波・液状化の家財被害も対象？賃貸の借主の確認点と原因別の判断表](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-kazai-tsunami-ekijoka-chintai-taisho.html)
 
 <!-- article-index:end -->
