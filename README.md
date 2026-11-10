@@ -94,5 +94,10 @@ assets/style.css      共通CSS
 - [地震保険の家財の保険金額は？30〜50%・上限1,000万円と受取額の早見表](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-kazai-hokenkingaku-30-50-ukitorigaku.html)
 - [地震保険は賃貸の引越しで解約できる？返戻金の仕組みと手続きの順番](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-chintai-hikkoshi-taikyo-kaiyaku-henreikin.html)
 - [地震保険は津波・液状化の家財被害も対象？賃貸の借主の確認点と原因別の判断表](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-kazai-tsunami-ekijoka-chintai-taisho.html)
+- [ローリングストックのやり方｜一人暮らしの始め方と期限切れを出さない棚の並べ方](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/rolling-stock-hitorigurashi-syunou.html)
+- [カセットボンベの備蓄は何本？1人1週間で6本の目安と製造後7年の期限・収納のしかた](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/cassette-bombe-bichiku-honsu-syunou.html)
+- [感震ブレーカーは賃貸でも付けられる？通電火災の仕組みと工事不要タイプの選び方](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/kanshin-breaker-chintai-tsuden-kasai.html)
+- [地震保険は余震の被害も出る？賃貸の家財で72時間ルールと10日ルール](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-kazai-yoshin-honshin-72jikan-10nichi.html)
+- [賃貸の地震保険を外す・更新しないとどうなる？解除と再加入の確認点](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-chintai-hazusu-kokyu-kanyu-sai-nyukai.html)
 
 <!-- article-index:end -->
