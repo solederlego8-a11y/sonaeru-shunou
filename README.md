@@ -100,4 +100,6 @@ assets/style.css      共通CSS
 - [地震保険は余震の被害も出る？賃貸の家財で72時間ルールと10日ルール](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-kazai-yoshin-honshin-72jikan-10nichi.html)
 - [賃貸の地震保険を外す・更新しないとどうなる？解除と再加入の確認点](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-chintai-hazusu-kokyu-kanyu-sai-nyukai.html)
 
+- [地震保険の請求期限はある？保険金請求権は3年で時効（保険法95条）](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/jishin-hoken-seikyu-kigen-jiko-3nen.html)
+
 <!-- article-index:end -->
