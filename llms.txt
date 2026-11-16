@@ -1,0 +1,23 @@
+# そなえる収納
+
+> 賃貸・一人暮らしの防災グッズ収納メディア。「何を備えるか」ではなく「それをどこに・どう収納するか」を扱う。玄関、クローゼット、ベッド下、キッチンなど、賃貸でも原状回復できる形で生活動線を邪魔せずに備えるための収納アイデアと商品比較を掲載する。運営：編集部。最終更新日：2026-11-14。
+
+## 主要ページ
+
+- [トップ](https://solederlego8-a11y.github.io/sonaeru-shunou/)
+- [防災収納 完全ガイド](https://solederlego8-a11y.github.io/sonaeru-shunou/guide.html)
+- [記事一覧](https://solederlego8-a11y.github.io/sonaeru-shunou/blog.html)
+- [家族の防災備蓄量・ポータブル電源容量の計算ツール（無料）](https://solederlego8-a11y.github.io/sonaeru-shunou/bichiku-keisan.html)
+- [このサイトについて](https://solederlego8-a11y.github.io/sonaeru-shunou/about.html)
+- [一人暮らし防災収納チェックリスト](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/hitorigurashi-bousai-checklist.html)
+
+## 記事（代表）
+
+- [一人暮らしの防災グッズ、どこに置く？収納場所7選](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/hitorigurashi-bousai-syunou-basho.html)
+- [ポータブル電源は一人暮らしに何Wh必要？](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/portable-dengen-hitorigurashi-yoryo.html)
+- [Jackery・BLUETTI・Dabbsson、一人暮らしの防災用ポータブル電源はどれ？](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/portable-dengen-3brand-hikaku-hitorigurashi.html)
+- [長期保存水は5年と10年どっち？](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/chouki-hozonsui-5nen-10nen.html)
+- [水の備蓄はどこに置く？一人暮らしの3日分9L・1週間分21L](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/mizu-bichiku-okibasho-hitorigurashi.html)
+- [アルファ米は一人暮らしで何食備蓄する？](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/alpha-mai-hitorigurashi-nanshoku.html)
+- [賃貸で家具の転倒防止をするならどんな方法があるか](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/chintai-kagu-tentoboshi-hikaku.html)
+- [ベッド下の防災グッズ収納｜高さ別に入るものと対策](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/bed-shita-bousai-syunou.html)
