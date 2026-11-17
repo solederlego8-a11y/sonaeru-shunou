@@ -8,6 +8,7 @@
 - [防災収納 完全ガイド](https://solederlego8-a11y.github.io/sonaeru-shunou/guide.html)
 - [記事一覧](https://solederlego8-a11y.github.io/sonaeru-shunou/blog.html)
 - [家族の防災備蓄量・ポータブル電源容量の計算ツール（無料）](https://solederlego8-a11y.github.io/sonaeru-shunou/bichiku-keisan.html)
+- [一人暮らし防災備蓄 早見表（水・食料・トイレの量と置き場所）](https://solederlego8-a11y.github.io/sonaeru-shunou/hayamihyo.html)
 - [このサイトについて](https://solederlego8-a11y.github.io/sonaeru-shunou/about.html)
 - [一人暮らし防災収納チェックリスト](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/hitorigurashi-bousai-checklist.html)
 
