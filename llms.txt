@@ -1,6 +1,6 @@
 # そなえる収納
 
-> 賃貸・一人暮らしの防災グッズ収納メディア。「何を備えるか」ではなく「それをどこに・どう収納するか」を扱う。玄関、クローゼット、ベッド下、キッチンなど、賃貸でも原状回復できる形で生活動線を邪魔せずに備えるための収納アイデアと商品比較を掲載する。運営：編集部。最終更新日：2026-11-14。
+> 賃貸・一人暮らしの防災グッズ収納メディア。「何を備えるか」ではなく「それをどこに・どう収納するか」を扱う。玄関、クローゼット、ベッド下、キッチンなど、賃貸でも原状回復できる形で生活動線を邪魔せずに備えるための収納アイデアと商品比較を掲載する。運営：編集部。最終更新日：2026-11-23。
 
 ## 主要ページ
 
@@ -14,6 +14,8 @@
 
 ## 記事（代表）
 
+- [一人暮らしの防災備蓄は何日分？水・食料・トイレの必要量早見表](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/hitorigurashi-bousai-bichiku-nannichibun.html)
+- [防災備蓄の収納場所｜狭い部屋で備蓄が邪魔にならない分散収納の作り方](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/bousai-bichiku-bunsan-syunou.html)
 - [一人暮らしの防災グッズ、どこに置く？収納場所7選](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/hitorigurashi-bousai-syunou-basho.html)
 - [ポータブル電源は一人暮らしに何Wh必要？](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/portable-dengen-hitorigurashi-yoryo.html)
 - [Jackery・BLUETTI・Dabbsson、一人暮らしの防災用ポータブル電源はどれ？](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/portable-dengen-3brand-hikaku-hitorigurashi.html)
