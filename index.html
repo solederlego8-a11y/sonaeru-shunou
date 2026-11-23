@@ -55,6 +55,26 @@ gtag('config', 'G-MHSG2QN7ED', { anonymize_ip: true });
 <script>
 if(typeof gtag==='function'){document.addEventListener('click',function(e){var a=e.target&&e.target.closest&&e.target.closest('a[href]');if(!a||a.hasAttribute('data-cv-tracked'))return;var h=a.href||'';var has=function(s){return h.indexOf(s)>-1;};var asp=has('a8.net')?'a8':(has('rakuten.co.jp')||has('r10.to'))?'rakuten':(has('amazon.co.jp')||has('amzn.'))?'amazon':'';if(asp){gtag('event','affiliate_click',{asp:asp,link_url:h,link_text:(a.innerText||'').trim().slice(0,80),page_path:location.pathname});}else if(has('buy.stripe.com')){gtag('event','begin_checkout',{link_url:h,page_path:location.pathname});}},true);document.addEventListener('submit',function(e){var f=e.target;gtag('event','generate_lead',{form_id:f.id||f.getAttribute('data-subject')||f.action||'',page_path:location.pathname});},true);}
 </script>
+
+<style id="b3-pattern">
+:root{--b3-navy:#0B2A4A;--b3-blue:#0F4C81;--b3-ink:#1B2735;--b3-line:#D8E2EC;--b3-bg:#F4F8FB}
+h1{font-size:clamp(1.65rem,4.2vw,2.55rem);letter-spacing:.01em}
+h2{font-size:clamp(1.22rem,2.8vw,1.55rem)}
+.b3-band{max-width:1120px;margin:20px auto;padding:0 16px}
+.b3-band-in{display:flex;flex-wrap:wrap;gap:0;background:#fff;border:1px solid var(--b3-line);border-top:3px solid var(--b3-navy);border-radius:8px;overflow:hidden}
+.b3-band-item{flex:1 1 140px;padding:14px 16px;text-align:center}
+.b3-band-item+.b3-band-item{border-left:1px solid var(--b3-line)}
+.b3-band-item b{display:block;font-size:clamp(1.3rem,3vw,1.7rem);color:var(--b3-navy);line-height:1.2;font-weight:700}
+.b3-band-item span{display:block;margin-top:4px;font-size:.8rem;color:#44586E;line-height:1.4}
+@media (prefers-reduced-motion: no-preference){
+  html.b3js .b3-fade{opacity:0;transform:translateY(10px);transition:opacity .6s ease,transform .6s ease}
+  html.b3js .b3-fade.b3-in{opacity:1;transform:none}
+}
+@media (prefers-reduced-motion: reduce){
+  .b3-fade{opacity:1!important;transform:none!important}
+}
+:focus-visible{outline:2px solid var(--b3-blue);outline-offset:2px}
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -85,7 +105,9 @@ if(typeof gtag==='function'){document.addEventListener('click',function(e){var a
 
     <div class="callout note">無料ツール: <a href="bichiku-keisan.html">家族の防災備蓄量・ポータブル電源容量の計算ツール</a>（人数と日数から水・食事・簡易トイレの量、家電の消費電力と時間から電源容量の目安を計算。入力は送信・保存されません）</div>
 
-    <h2 class="sectiontitle">まずここから（入口4つ）</h2>
+    
+<div class="b3-band"><div class="b3-band-in"><div class="b3-band-item"><b>46本</b><span>掲載記事</span></div><div class="b3-band-item"><b>4つ</b><span>入口（まずここから）</span></div><div class="b3-band-item"><b>保存版</b><span>防災収納チェックリスト</span></div><div class="b3-band-item"><b>賃貸・一人暮らし</b><span>対象の住まい</span></div></div></div>
+<h2 class="sectiontitle">まずここから（入口4つ）</h2>
     <p class="sectionlede">防災収納の入口を4つに絞りました。全体像 → チェック → 計算 → 置き場所の順で読めます。</p>
     <div class="catgrid">
       <a class="card" href="guide.html">
@@ -369,5 +391,17 @@ if(typeof gtag==='function'){document.addEventListener('click',function(e){var a
     &copy; 2026 そなえる収納 ・ <a href="about.html">サイトについて・広告表示ポリシー</a> ・ <a href="contact.html">お問い合わせ</a> ・ <a href="https://solederlego8-a11y.github.io/">運営メディア一覧</a>
   </div>
 </footer>
+
+<script>
+(function(){document.documentElement.classList.add('b3js');
+var targets=document.querySelectorAll('section, main>div, .b3-band');
+var els=[];targets.forEach(function(e){if(!e.classList.contains('b3-fade')){e.classList.add('b3-fade');els.push(e);}});
+function show(e){e.classList.add('b3-in');}
+if(!('IntersectionObserver' in window)||window.matchMedia('(prefers-reduced-motion: reduce)').matches){els.forEach(show);return;}
+var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){show(en.target);io.unobserve(en.target);}});},{threshold:.05});
+els.forEach(function(e){io.observe(e);});
+setTimeout(function(){els.forEach(show);},2500);
+})();
+</script>
 </body>
 </html>
