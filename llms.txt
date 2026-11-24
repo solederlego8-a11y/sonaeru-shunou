@@ -10,6 +10,7 @@
 - [家族の防災備蓄量・ポータブル電源容量の計算ツール（無料）](https://solederlego8-a11y.github.io/sonaeru-shunou/bichiku-keisan.html)
 - [一人暮らし防災備蓄 早見表（水・食料・トイレの量と置き場所）](https://solederlego8-a11y.github.io/sonaeru-shunou/hayamihyo.html)
 - [このサイトについて](https://solederlego8-a11y.github.io/sonaeru-shunou/about.html)
+- [防災備蓄のローリングストックのやり方｜賞味期限で失敗しない買い方と管理の仕組み](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/bousai-rolling-stock-yarikata.html)
 - [一人暮らし防災収納チェックリスト](https://solederlego8-a11y.github.io/sonaeru-shunou/articles/hitorigurashi-bousai-checklist.html)
 
 ## 記事（代表）
